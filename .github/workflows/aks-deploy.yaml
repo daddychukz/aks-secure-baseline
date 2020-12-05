@@ -39,7 +39,7 @@ on:
     branches: [ main ]
   pull_request:
     paths:
-      - 'cluster-stamp.json'
+      - './cluster-stamp.json'
       - '.github/workflows/aks-deploy.yaml'
     branches: [ main ]
 
